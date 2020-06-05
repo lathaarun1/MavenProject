@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org//testng-1.0.dtd">
+<suite name="MercuryToursWebAppTesting" verbose="1" parallel="tests" thread-count="2">
+<test name="CrossBrowserTesting1">
+<parameter name="username" value="username1"></parameter>
+<parameter name="password" value="password1"/>
+<classes>
+<class name="MercuryTours.FunctionalTestingInFF"/>
+<class name="MercuryTours.FunctionalTestingInChrome"/>
+</classes>
+</test>
+<test name="CrossBrowserTesting2">
+<parameter name="username" value="username2"></parameter>
+<parameter name="password" value="password2"/>
+<classes>
+<class name="MercuryTours.FunctionalTestingInFF"/>
+<class name="MercuryTours.FunctionalTestingInChrome"/>
+</classes>
+</test>
+</suite>

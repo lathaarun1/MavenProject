@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\LATHA ARUNACHALAM\AppData\Local\Temp\testng-eclipse--1020549289\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 1 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(null, null, null, null)">createAccount(null, null, null, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username6, password6, password6, username6@testmail.com)">createAccount(username6, password6, password6, username6@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username16, password16, password16, username16@testmail.com)">createAccount(username16, password16, password16, username16@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username8, password8, password8, username8@testmail.com)">createAccount(username8, password8, password8, username8@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username14, password14, password14, username14@testmail.com)">createAccount(username14, password14, password14, username14@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username5, password5, password5, username5@testmail.com)">createAccount(username5, password5, password5, username5@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username12, password12, password12, username12@testmail.com)">createAccount(username12, password12, password12, username12@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username4, password4, password4, username4@testmail.com)">createAccount(username4, password4, password4, username4@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username2, password2, password2, username2@testmail.com)">createAccount(username2, password2, password2, username2@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username15, password15, password15, username15@testmail.com)">createAccount(username15, password15, password15, username15@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username11, password11, password11, username11@testmail.com)">createAccount(username11, password11, password11, username11@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username9, password9, password9, username9@testmail.com)">createAccount(username9, password9, password9, username9@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username3, password3, password3, username3@testmail.com)">createAccount(username3, password3, password3, username3@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username13, password13, password13, username13@testmail.com)">createAccount(username13, password13, password13, username13@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username1, password1, password1, username1@testmail.com)">createAccount(username1, password1, password1, username1@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username10, password10, password10, username10@testmail.com)">createAccount(username10, password10, password10, username10@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="WikipediaCreateAccount.TestingUsingXLSFile" hash-for-method="createAccount(username7, password7, password7, username7@testmail.com)">createAccount(username7, password7, password7, username7@testmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">WikipediaCreateAccount.TestingUsingXLSFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(null, null, null, null)">
+                  </a> <!-- createAccount(null, null, null, null) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(null, null, null, null)</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at WikipediaCreateAccount.TestingUsingXLSFile.createAccount(TestingUsingXLSFile.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">WikipediaCreateAccount.TestingUsingXLSFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username6, password6, password6, username6@testmail.com)">
+                  </a> <!-- createAccount(username6, password6, password6, username6@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username6, password6, password6, username6@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username16, password16, password16, username16@testmail.com)">
+                  </a> <!-- createAccount(username16, password16, password16, username16@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username16, password16, password16, username16@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username8, password8, password8, username8@testmail.com)">
+                  </a> <!-- createAccount(username8, password8, password8, username8@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username8, password8, password8, username8@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username14, password14, password14, username14@testmail.com)">
+                  </a> <!-- createAccount(username14, password14, password14, username14@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username14, password14, password14, username14@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username5, password5, password5, username5@testmail.com)">
+                  </a> <!-- createAccount(username5, password5, password5, username5@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username5, password5, password5, username5@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username12, password12, password12, username12@testmail.com)">
+                  </a> <!-- createAccount(username12, password12, password12, username12@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username12, password12, password12, username12@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username4, password4, password4, username4@testmail.com)">
+                  </a> <!-- createAccount(username4, password4, password4, username4@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username4, password4, password4, username4@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username2, password2, password2, username2@testmail.com)">
+                  </a> <!-- createAccount(username2, password2, password2, username2@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username2, password2, password2, username2@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username15, password15, password15, username15@testmail.com)">
+                  </a> <!-- createAccount(username15, password15, password15, username15@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username15, password15, password15, username15@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username11, password11, password11, username11@testmail.com)">
+                  </a> <!-- createAccount(username11, password11, password11, username11@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username11, password11, password11, username11@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username9, password9, password9, username9@testmail.com)">
+                  </a> <!-- createAccount(username9, password9, password9, username9@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username9, password9, password9, username9@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username3, password3, password3, username3@testmail.com)">
+                  </a> <!-- createAccount(username3, password3, password3, username3@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username3, password3, password3, username3@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username13, password13, password13, username13@testmail.com)">
+                  </a> <!-- createAccount(username13, password13, password13, username13@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username13, password13, password13, username13@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username1, password1, password1, username1@testmail.com)">
+                  </a> <!-- createAccount(username1, password1, password1, username1@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username1, password1, password1, username1@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username10, password10, password10, username10@testmail.com)">
+                  </a> <!-- createAccount(username10, password10, password10, username10@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username10, password10, password10, username10@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(username7, password7, password7, username7@testmail.com)">
+                  </a> <!-- createAccount(username7, password7, password7, username7@testmail.com) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(username7, password7, password7, username7@testmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\LATHA ARUNACHALAM\AppData\Local\Temp\testng-eclipse--1020549289\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;WikipediaCreateAccount.TestingUsingXLSFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createAccount')
+data.setCell(0, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(0, 3, 1141);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createAccount')
+data.setCell(1, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(1, 3, 1044);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createAccount')
+data.setCell(2, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(2, 3, 1040);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createAccount')
+data.setCell(3, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(3, 3, 1039);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createAccount')
+data.setCell(4, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(4, 3, 1033);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createAccount')
+data.setCell(5, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(5, 3, 1024);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createAccount')
+data.setCell(6, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(6, 3, 1019);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createAccount')
+data.setCell(7, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(7, 3, 1015);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createAccount')
+data.setCell(8, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(8, 3, 1011);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createAccount')
+data.setCell(9, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(9, 3, 1010);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'createAccount')
+data.setCell(10, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(10, 3, 937);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createAccount')
+data.setCell(11, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(11, 3, 916);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'createAccount')
+data.setCell(12, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(12, 3, 877);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'createAccount')
+data.setCell(13, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(13, 3, 873);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'createAccount')
+data.setCell(14, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(14, 3, 872);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'createAccount')
+data.setCell(15, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(15, 3, 871);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'createAccount')
+data.setCell(16, 2, 'WikipediaCreateAccount.TestingUsingXLSFile')
+data.setCell(16, 3, 110);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">WikipediaCreateAccount.TestingUsingXLSFile</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">config</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createAccount(null, null, null, null)</span>
+                <span class="method-start">6045 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username1, password1, password1, username1@testmail.com)</span>
+                <span class="method-start">6161 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username2, password2, password2, username2@testmail.com)</span>
+                <span class="method-start">7306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username3, password3, password3, username3@testmail.com)</span>
+                <span class="method-start">8342 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username4, password4, password4, username4@testmail.com)</span>
+                <span class="method-start">9384 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username5, password5, password5, username5@testmail.com)</span>
+                <span class="method-start">10323 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username6, password6, password6, username6@testmail.com)</span>
+                <span class="method-start">11202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username7, password7, password7, username7@testmail.com)</span>
+                <span class="method-start">12076 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username8, password8, password8, username8@testmail.com)</span>
+                <span class="method-start">12951 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username9, password9, password9, username9@testmail.com)</span>
+                <span class="method-start">13824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username10, password10, password10, username10@testmail.com)</span>
+                <span class="method-start">14743 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username11, password11, password11, username11@testmail.com)</span>
+                <span class="method-start">15757 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username12, password12, password12, username12@testmail.com)</span>
+                <span class="method-start">16783 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username13, password13, password13, username13@testmail.com)</span>
+                <span class="method-start">17826 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username14, password14, password14, username14@testmail.com)</span>
+                <span class="method-start">18847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username15, password15, password15, username15@testmail.com)</span>
+                <span class="method-start">19893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAccount(username16, password16, password16, username16@testmail.com)</span>
+                <span class="method-start">20910 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">21922 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

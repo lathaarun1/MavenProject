@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">16</td><td class="num">0</td><td class="num attn">1</td><td class="num">24,080</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">WikipediaCreateAccount.TestingUsingXLSFile</td><td><a href="#m0">createAccount</a></td><td rowspan="1">1591208856869</td><td rowspan="1">110</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="16">WikipediaCreateAccount.TestingUsingXLSFile</td><td><a href="#m1">createAccount</a></td><td rowspan="16">1591208862026</td><td rowspan="16">872</td></tr><tr class="passedeven"><td><a href="#m2">createAccount</a></td></tr><tr class="passedeven"><td><a href="#m3">createAccount</a></td></tr><tr class="passedeven"><td><a href="#m4">createAccount</a></td></tr><tr class="passedeven"><td><a href="#m5">createAccount</a></td></tr><tr class="passedeven"><td><a href="#m6">createAccount</a></td></tr><tr class="passedeven"><td><a href="#m7">createAccount</a></td></tr><tr class="passedeven"><td><a href="#m8">createAccount</a></td></tr><tr class="passedeven"><td><a href="#m9">createAccount</a></td></tr><tr class="passedeven"><td><a href="#m10">createAccount</a></td></tr><tr class="passedeven"><td><a href="#m11">createAccount</a></td></tr><tr class="passedeven"><td><a href="#m12">createAccount</a></td></tr><tr class="passedeven"><td><a href="#m13">createAccount</a></td></tr><tr class="passedeven"><td><a href="#m14">createAccount</a></td></tr><tr class="passedeven"><td><a href="#m15">createAccount</a></td></tr><tr class="passedeven"><td><a href="#m16">createAccount</a></td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>null</td><td>null</td><td>null</td><td>null</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at WikipediaCreateAccount.TestingUsingXLSFile.createAccount(TestingUsingXLSFile.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username6</td><td>password6</td><td>password6</td><td>username6@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username16</td><td>password16</td><td>password16</td><td>username16@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username8</td><td>password8</td><td>password8</td><td>username8@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username14</td><td>password14</td><td>password14</td><td>username14@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username5</td><td>password5</td><td>password5</td><td>username5@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username12</td><td>password12</td><td>password12</td><td>username12@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username4</td><td>password4</td><td>password4</td><td>username4@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username2</td><td>password2</td><td>password2</td><td>username2@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username15</td><td>password15</td><td>password15</td><td>username15@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username11</td><td>password11</td><td>password11</td><td>username11@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username9</td><td>password9</td><td>password9</td><td>username9@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username3</td><td>password3</td><td>password3</td><td>username3@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username13</td><td>password13</td><td>password13</td><td>username13@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username1</td><td>password1</td><td>password1</td><td>username1@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username10</td><td>password10</td><td>password10</td><td>username10@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">WikipediaCreateAccount.TestingUsingXLSFile#createAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>username7</td><td>password7</td><td>password7</td><td>username7@testmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [MercuryTours]" parallel="tests">
+  <test thread-count="2" name="FunctionalTesting(failed)" parallel="tests">
+    <parameter name="password" value="password1"/>
+    <parameter name="username" value="username1"/>
+    <classes>
+      <class name="MercuryTours.FunctionalTestingInChrome">
+        <methods>
+          <include name="close"/>
+          <include name="waitToFindEle"/>
+          <include name="signIn"/>
+          <include name="Config"/>
+        </methods>
+      </class> <!-- MercuryTours.FunctionalTestingInChrome -->
+    </classes>
+  </test> <!-- FunctionalTesting(failed) -->
+  <test thread-count="2" name="FunctionalTesting1(failed)" parallel="tests">
+    <parameter name="password" value="password2"/>
+    <parameter name="username" value="username2"/>
+    <classes>
+      <class name="MercuryTours.FunctionalTestingInChrome">
+        <methods>
+          <include name="close"/>
+          <include name="waitToFindEle"/>
+          <include name="signIn"/>
+          <include name="Config"/>
+        </methods>
+      </class> <!-- MercuryTours.FunctionalTestingInChrome -->
+    </classes>
+  </test> <!-- FunctionalTesting1(failed) -->
+</suite> <!-- Failed suite [MercuryTours] -->
